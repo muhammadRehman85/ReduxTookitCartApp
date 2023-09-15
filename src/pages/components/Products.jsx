@@ -38,7 +38,7 @@ if(status===STATUSES.LOADING){
     {/* <div className="desc">{product.description}</div> */}
     <div className="price">{product.price}</div>
     <div className="cate">{product.category}</div>
-    <div className="btn"><button  onClick={()=>handleAdd(product)}>Add to cart</button></div>
+    <div className="btns"><button className='button'  onClick={()=>handleAdd(product)}>Add to cart</button></div>
 </div>
             
         ))
